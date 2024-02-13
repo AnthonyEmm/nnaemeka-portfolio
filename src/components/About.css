@@ -16,12 +16,18 @@
   width: 100vw;
   height: 100%;
   object-fit: cover;
-  overflow: hidden;
   box-shadow: rgba(160, 159, 159, 0.25) 0px 14px 28px,
     rgba(172, 172, 172, 0.22) 0px 10px 10px;
-  border-radius: 8px;
+  border-radius: 10px;
   align-self: center;
-  margin-top: 6rem;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about .content p {

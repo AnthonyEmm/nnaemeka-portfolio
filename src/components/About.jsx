@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
-import Mobile from "../assets/mobile.mp4";
+import AboutMe from "../assets/About.mp4";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
       <div className="about">
         <div className="content">
           <div className="video">
-            <video src={Mobile} alt="about me video" autoPlay loop />
+            <video src={AboutMe} alt="about me video" controls />
           </div>
           <p>
             I am a passionate software developer with an enthusiasm for building
