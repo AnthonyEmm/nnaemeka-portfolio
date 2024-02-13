@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "../components/Navbar.css";
+import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-const Navbar = () => {
+const NavBar = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => {
@@ -54,4 +54,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
