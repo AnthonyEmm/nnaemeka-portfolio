@@ -3,7 +3,7 @@ import "../components/Navbar.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-const NavBar = () => {
+const Navbar = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => {
@@ -54,4 +54,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
