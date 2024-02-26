@@ -58,7 +58,7 @@ const Home = () => {
               {loading ? "Loading Portfolio..." : "Portfolio"}
             </Link>
             <Link
-              to="https://drive.google.com/file/d/1GFKzlkdnGFqX-9lPVWyuOXN3LOkoNVVQ/view?usp=sharing"
+              to="https://drive.google.com/file/d/1mhKzEMjdY1h6gmoi_Q2u9iHvV9dLujpd/view?usp=sharing"
               className="btn btn-light"
               target="_blank"
               title="Download Resume"
