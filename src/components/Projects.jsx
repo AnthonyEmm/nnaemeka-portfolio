@@ -6,6 +6,7 @@ import XRental from "../assets/xrental-new.png";
 import Cooking from "../assets/NG_New.png";
 import Blog5 from "../assets/Blog5.png";
 import TaskMgt from "../assets/my-todo.png";
+import CarStand from "../assets/Car-stand.png";
 import IP from "../assets/IP_IMG.png";
 import { DiMongodb } from "react-icons/di";
 import { TbApi } from "react-icons/tb";
@@ -30,6 +31,9 @@ import {
   SiTailwindcss,
   SiFirebase,
   SiRedux,
+  SiTypescript,
+  SiVercel,
+  SiHeadlessui,
 } from "react-icons/si";
 
 const Projects = () => {
@@ -254,6 +258,89 @@ const Projects = () => {
                 cursor: "pointer",
               }}
               title="Github"
+            />
+          </p>
+        </Link>
+
+        <Link
+          to="https://car-stand-booking.vercel.app/"
+          target="_blank"
+          className="card"
+        >
+          <div className="card-inner" title="View More">
+            <div className="card-front">
+              <img src={CarStand} alt="Car Stand" />
+            </div>
+            <div className="card-back">
+              <p>
+                A simple car showroom app using Typescript, RestAPI with search
+                and filter parameters
+              </p>
+            </div>
+          </div>
+          <p>
+            <SiTypescript
+              size={25}
+              style={{
+                color: "rgb(248, 215, 174)",
+                marginLeft: "1rem",
+                cursor: "pointer",
+              }}
+              title="TypeScript"
+            />
+            <SiTailwindcss
+              size={25}
+              style={{
+                color: "rgb(248, 215, 174)",
+                marginLeft: "1rem",
+                cursor: "pointer",
+              }}
+              title="Tailwind CSS"
+            />
+            <SiHeadlessui
+              size={25}
+              style={{
+                color: "rgb(248, 215, 174)",
+                marginLeft: "1rem",
+                cursor: "pointer",
+              }}
+              title="Headless UI"
+            />
+            <TbApi
+              size={25}
+              style={{
+                color: "rgb(248, 215, 174)",
+                marginLeft: "1rem",
+                cursor: "pointer",
+              }}
+              title="REST API"
+            />
+            <FaGit
+              size={25}
+              style={{
+                color: "rgb(248, 215, 174)",
+                marginLeft: "1rem",
+                cursor: "pointer",
+              }}
+              title="Git"
+            />
+            <FaGithub
+              size={25}
+              style={{
+                color: "rgb(248, 215, 174)",
+                marginLeft: "1rem",
+                cursor: "pointer",
+              }}
+              title="Github"
+            />
+            <SiVercel
+              size={25}
+              style={{
+                color: "rgb(248, 215, 174)",
+                marginLeft: "1rem",
+                cursor: "pointer",
+              }}
+              title="Vercel"
             />
           </p>
         </Link>
