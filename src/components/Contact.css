@@ -51,6 +51,15 @@
   padding: 1.5rem 0;
 }
 
+.photo img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo img:hover {
+  transform: scale(1.1);
+  cursor: pointer !important;
+}
+
 @media only screen and (max-width: 480px) {
   .info-container {
     padding: 120px;
