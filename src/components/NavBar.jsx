@@ -28,13 +28,13 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/aboutme" onClick={closeTab}>
-            About Me
+          <Link to="/projects" onClick={closeTab}>
+            Portfolio
           </Link>
         </li>
         <li>
-          <Link to="/projects" onClick={closeTab}>
-            Portfolio
+          <Link to="/aboutme" onClick={closeTab}>
+            About Me
           </Link>
         </li>
         <li>
